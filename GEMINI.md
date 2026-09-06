@@ -5,7 +5,8 @@ Ini adalah sebuah project portofolio yang untuk layanan jasa saya. Project ini a
 2. Tentang Saya
 3. Portofolio
 4. Layanan
-5. Kontak
+5. Blop
+6. Kontak
 
 Semua halaman dapat diedit secara dinamis via Dashboard admin yang bisa saya akses sendiri. 
 
@@ -25,6 +26,10 @@ Ketika pengunjung checkout, dia akan diarahkan ke halaman pembayaran yang berisi
 Pembayaran menggunakan QRIS statis yang gambarnya bisa saya upload via dashboard admin. Pengunjung yang memesan tidak perlu login. Setelah melakukan pembayaran, ada halaman yang mengarahkan pengunjung menghubungi saya dengan detail pesanan via whatsapp.
 
 Di dashboard admin selain mengedit tampilan halaman public. Terdapat juga laporan penjualan, baik secara mingguan maupun bulanan. Dan ada juga fitur untuk mencetak kwitansi pembayaran untuk pembayaran layanan yang sudah terveridikasi. Jadi saya bisa download kwitansi ini dan kirim ke pemesan layanan.
+
+Untuk Blog, ini fiturnya kayak bogging biasa kayak di wordpress, jadi ada fitur tambah kategori, buat post baru dan edit post yang sudah ada. Ada fitur untuk menambahkan feature image. Kemudian untuk editor post nya menggunakan richtext editor, dan bisa menyisipkan foto.
+
+Untuk fitur foto ini, ada menu media library di dashboard admin kayak wordpress. Media library ini menampilkan semua gambar yang sudah diupload. Jadi kalau mau sisipkan gambar dari menu manapun, ketika kita klik tombol tambah gambar, langsung muncul popup media library (ada foto yang sudah diupload) tapi kalo kita mau upload foto baru, bisa, karena ada tombol upload gambar,
 
 This file is loaded automatically by Gemini CLI at the start of every session. Treat it as the source of truth for how to work in this repo.
 
