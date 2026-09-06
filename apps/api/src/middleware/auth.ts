@@ -1,8 +1,8 @@
 import { createMiddleware } from "hono/factory";
 import { createAuth } from "../lib/auth";
-import type { Env } from "../index";
+import type { Env, Variables } from "../index";
 
-export const requireAuth = createMiddleware<{ Bindings: Env }>(
+export const requireAuth = createMiddleware<{ Bindings: Env; Variables: Variables }>(
   async (c, next) => {
     const auth = createAuth(c.env);
     const session = await auth.api.getSession({
