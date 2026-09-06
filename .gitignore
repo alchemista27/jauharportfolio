@@ -1,3 +1,22 @@
 .agents/
 .codex/
 .opencode/
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Build and Temp files
+.svelte-kit/
+dist/
+build/
+.turbo/
+.wrangler/
+drizzle/
+
+data-penting/
