@@ -71,4 +71,4 @@ Berikut adalah tangkapan layar antarmukanya (*mockup* UI):
 ![Kontak](assets/contact.png)
 
 ---
-*Proyek ini mematuhi standar desain [DESIGN.md](DESIGN.md) dan pedoman kebersihan kode berbasis aturan agen (Antislop).*
+*Proyek ini mematuhi standar desain [DESIGN.md](DESIGN.md).*
