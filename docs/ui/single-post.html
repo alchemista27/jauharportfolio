@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jauhariandev - Single Post</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2F2342',
+                        secondary: '#0C3C78',
+                        tertiary: '#B42B3F',
+                        neutral: '#F7F7F8',
+                        surface: '#FFFFFF',
+                        border: '#E5E4E7'
+                    },
+                    fontFamily: {
+                        heading: ['Roboto', 'sans-serif'],
+                        body: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #F7F7F8; color: #2F2342; overflow-x: hidden; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; }
+        .drop-cap::first-letter { font-size: 3.5rem; float: left; margin-right: 0.75rem; line-height: 1; color: #B42B3F; font-family: 'Roboto', sans-serif; font-weight: bold; }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col bg-surface">
+
+    <!-- 1. NAVBAR -->
+    <header class="w-full z-50 py-6 border-b border-border bg-surface">
+        <div class="max-w-[1400px] mx-auto px-6 flex items-center justify-between">
+            <div class="w-1/4">
+                <a href="#" class="font-heading font-bold text-2xl tracking-tight text-primary">Jauhariandev<span class="text-tertiary">.</span></a>
+            </div>
+            <nav class="hidden lg:flex w-2/4 justify-center space-x-10">
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Beranda</a>
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Tentang Saya</a>
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Portofolio</a>
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Layanan</a>
+                <a href="#" class="text-tertiary font-semibold text-sm transition-colors">Blog</a>
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Kontak</a>
+            </nav>
+            <div class="hidden lg:flex w-1/4 justify-end items-center space-x-6 text-primary">
+                <a href="#" class="hover:text-tertiary transition-colors" aria-label="Instagram">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4z"/></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-full">
+        <!-- 2. POST HEADER -->
+        <section class="py-24 px-6 max-w-4xl mx-auto text-center border-b border-border">
+            <span class="text-tertiary uppercase tracking-widest text-sm font-semibold mb-4 block">Konsep Desain</span>
+            <h1 class="font-heading text-4xl md:text-6xl text-primary font-bold mb-6 tracking-tight leading-tight">Kerja sama tim sangat penting untuk tantangan proyek skala kecil.</h1>
+            <div class="text-sm font-semibold uppercase tracking-widest text-primary opacity-60 mt-6 flex justify-center items-center space-x-4">
+                <span>Oleh <span class="text-primary font-bold opacity-100">Jauhari</span></span>
+                <span>•</span>
+                <span>12 September 2026</span>
+                <span>•</span>
+                <span>0 Komentar</span>
+            </div>
+        </section>
+
+        <!-- 3. POST CONTENT & SIDEBAR -->
+        <section class="py-16 px-6 max-w-[1400px] mx-auto">
+            <div class="flex flex-col lg:flex-row gap-16">
+                
+                <!-- MAIN CONTENT (66%) -->
+                <div class="lg:w-2/3">
+                    <!-- Featured Image -->
+                    <div class="relative w-full mb-10 rounded-sm overflow-hidden">
+                        <div class="absolute top-2 left-2 z-10 bg-black/50 text-white text-xs px-2 py-1">[PLACEHOLDER UNSPLASH: GAMBAR UTAMA]</div>
+                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80" alt="Kerja Sama Tim" class="w-full h-auto object-cover">
+                    </div>
+
+                    <!-- Article Body -->
+                    <article class="text-primary opacity-80 leading-loose text-lg space-y-8">
+                        <p class="drop-cap">
+                            Membangun ekosistem yang transparan dalam tim kecil membantu mengurangi kebisingan komunikasi dan mengoptimalkan kecepatan pengembangan. Ketika setiap anggota tim mengetahui batas dan jangkauan tanggung jawab mereka, gesekan internal akan berkurang secara dramatis.
+                        </p>
+                        
+                        <p>
+                            Namun, tidak semua tim kecil menyadari pentingnya sinkronisasi harian. Banyak yang berasumsi bahwa karena timnya kecil, komunikasi akan terjadi secara natural. Ini adalah sebuah kesalahan besar dalam manajemen proyek berbasis tenggat waktu ketat.
+                        </p>
+
+                        <!-- Blockquote -->
+                        <blockquote class="border-l-4 border-tertiary pl-6 py-2 my-10 bg-neutral italic font-heading text-2xl text-primary font-semibold">
+                            "Keberhasilan proyek kecil tidak diukur dari seberapa keras Anda bekerja, tetapi seberapa sinkron tim Anda saat mengatasi masalah yang tak terduga."
+                        </blockquote>
+
+                        <p>
+                            Menggunakan alat bantu visual seperti Figma untuk desain dan Trello/Jira untuk pelacakan *bug* sangat esensial. Setiap baris kode yang ditulis harus bisa ditinjau kembali dengan mudah oleh anggota lain.
+                        </p>
+
+                        <!-- In-content Image -->
+                        <div class="relative w-full my-10 rounded-sm overflow-hidden">
+                            <div class="absolute top-2 left-2 z-10 bg-black/50 text-white text-xs px-2 py-1">[PLACEHOLDER UNSPLASH: GAMBAR IN-CONTENT]</div>
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" alt="Diskusi Tim" class="w-full h-auto object-cover">
+                        </div>
+
+                        <h3 class="font-heading text-2xl font-bold text-primary mt-10 mb-4 opacity-100">Kesimpulan</h3>
+                        <p>
+                            Jangan meremehkan kekuatan komunikasi asinkron yang terdokumentasi dengan baik. Pada akhirnya, tim yang paling tangguh bukanlah yang memiliki pengembang paling cerdas, melainkan tim yang paling jarang miskomunikasi.
+                        </p>
+                    </article>
+
+                    <!-- Share Buttons -->
+                    <div class="flex items-center space-x-4 mt-16 pt-8 border-t border-border">
+                        <span class="font-heading font-bold text-primary">Bagikan:</span>
+                        <a href="#" class="w-10 h-10 bg-neutral flex items-center justify-center rounded-full text-primary hover:bg-tertiary hover:text-surface transition-colors">fb</a>
+                        <a href="#" class="w-10 h-10 bg-neutral flex items-center justify-center rounded-full text-primary hover:bg-tertiary hover:text-surface transition-colors">tw</a>
+                        <a href="#" class="w-10 h-10 bg-neutral flex items-center justify-center rounded-full text-primary hover:bg-tertiary hover:text-surface transition-colors">in</a>
+                    </div>
+
+                    <!-- Author Box -->
+                    <div class="mt-16 bg-neutral p-10 flex flex-col sm:flex-row items-center sm:items-start gap-8 rounded-sm">
+                        <div class="w-32 h-32 flex-shrink-0 rounded-full overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=200&q=80" alt="Penulis" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-heading text-xl font-bold text-primary mb-2">Tentang Jauhari</h4>
+                            <p class="text-primary opacity-70 leading-relaxed mb-4 text-sm">
+                                Pengembang antarmuka dan desainer digital dengan obsesi terhadap performa website dan tipografi minimalis. Menulis untuk membagikan proses kreatifnya kepada dunia.
+                            </p>
+                            <a href="#" class="text-tertiary font-bold text-sm uppercase tracking-widest hover:underline">Semua Tulisan</a>
+                        </div>
+                    </div>
+
+                    <!-- Related Posts -->
+                    <div class="mt-16">
+                        <h3 class="font-heading text-2xl font-bold text-primary mb-8 border-b border-border pb-4">Artikel Terkait</h3>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                            <div class="group cursor-pointer">
+                                <div class="relative overflow-hidden mb-4 rounded-sm">
+                                    <div class="absolute top-2 left-2 z-10 bg-black/50 text-white text-xs px-2 py-1">[PLACEHOLDER]</div>
+                                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80" alt="Terkait 1" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                                </div>
+                                <h4 class="font-heading text-lg font-bold text-primary group-hover:text-tertiary transition-colors">Mengapa SvelteKit adalah masa depan</h4>
+                            </div>
+                            <div class="group cursor-pointer">
+                                <div class="relative overflow-hidden mb-4 rounded-sm">
+                                    <div class="absolute top-2 left-2 z-10 bg-black/50 text-white text-xs px-2 py-1">[PLACEHOLDER]</div>
+                                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80" alt="Terkait 2" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                                </div>
+                                <h4 class="font-heading text-lg font-bold text-primary group-hover:text-tertiary transition-colors">Pendekatan minimalis dalam desain</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SIDEBAR (33%) -->
+                <aside class="lg:w-1/3 space-y-12">
+                    
+                    <!-- Search Widget -->
+                    <div>
+                        <form class="relative">
+                            <input type="text" placeholder="Cari artikel..." class="w-full border border-border bg-transparent py-4 pl-4 pr-12 text-primary focus:outline-none focus:border-tertiary transition-colors">
+                            <button type="submit" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-primary hover:text-tertiary">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- About Widget -->
+                    <div class="text-center p-8 border border-border bg-neutral">
+                        <h4 class="font-heading font-bold text-primary mb-6 uppercase tracking-widest text-sm">Tentang Saya</h4>
+                        <div class="w-24 h-24 mx-auto rounded-full overflow-hidden mb-4">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80" alt="Penulis" class="w-full h-full object-cover">
+                        </div>
+                        <p class="text-primary opacity-70 text-sm leading-relaxed mb-6">Membantu bisnis membangun pengalaman web yang indah dan berkinerja tinggi.</p>
+                        <!-- Social Icons -->
+                        <div class="flex justify-center space-x-3 text-primary">
+                            <a href="#" class="hover:text-tertiary"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4z"/></svg></a>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Widget -->
+                    <div class="p-8 border border-border bg-surface text-center">
+                        <h4 class="font-heading font-bold text-primary mb-4 uppercase tracking-widest text-sm">Nawala</h4>
+                        <p class="text-primary opacity-70 text-sm leading-relaxed mb-6">Dapatkan inspirasi desain dan kode terbaru langsung ke kotak masuk Anda.</p>
+                        <form class="space-y-4">
+                            <input type="email" placeholder="Alamat Email" class="w-full border border-border bg-neutral py-3 px-4 text-sm focus:outline-none focus:border-tertiary">
+                            <button type="submit" class="w-full bg-primary text-surface font-bold py-3 uppercase tracking-widest text-sm hover:bg-tertiary transition-colors">Berlangganan</button>
+                        </form>
+                    </div>
+
+                    <!-- Recent Posts Widget -->
+                    <div>
+                        <h4 class="font-heading font-bold text-primary mb-6 uppercase tracking-widest text-sm border-b border-border pb-2">Pos Terkini</h4>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-4 group cursor-pointer">
+                                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=150&q=80" alt="Thumb" class="w-16 h-16 object-cover rounded-sm">
+                                <div>
+                                    <h5 class="font-heading font-bold text-primary text-sm group-hover:text-tertiary transition-colors line-clamp-2">Pentingnya strategi digital sebelum meluncurkan produk</h5>
+                                    <span class="text-xs opacity-60 text-primary">10 Sep 2026</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4 group cursor-pointer">
+                                <img src="https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=150&q=80" alt="Thumb" class="w-16 h-16 object-cover rounded-sm">
+                                <div>
+                                    <h5 class="font-heading font-bold text-primary text-sm group-hover:text-tertiary transition-colors line-clamp-2">Panduan dasar menggunakan Hono</h5>
+                                    <span class="text-xs opacity-60 text-primary">05 Sep 2026</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </aside>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 4. FOOTER -->
+    <footer class="bg-primary pt-24 pb-12 px-6 mt-12">
+        <div class="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 border-b border-white/10 pb-16">
+            <div>
+                <h3 class="font-heading font-bold text-2xl tracking-tight text-surface mb-6">Jauhariandev<span class="text-tertiary">.</span></h3>
+                <p class="text-surface opacity-70 leading-relaxed max-w-sm">
+                    Layanan kreatif spesialis di bidang web development dan desain UX.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-heading text-lg font-bold text-surface mb-6">Kontak</h4>
+                <ul class="text-surface opacity-70 space-y-3">
+                    <li>Jl. Digital Raya No.10, Jakarta</li>
+                    <li>hello@jauhariandev.com</li>
+                    <li>+62 812 3456 7890</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-heading text-lg font-bold text-surface mb-6">Tautan</h4>
+                <ul class="text-surface opacity-70 space-y-3">
+                    <li><a href="#" class="hover:text-tertiary transition-colors">Beranda</a></li>
+                    <li><a href="#" class="hover:text-tertiary transition-colors">Portofolio</a></li>
+                    <li><a href="#" class="hover:text-tertiary transition-colors">Layanan</a></li>
+                    <li><a href="#" class="hover:text-tertiary transition-colors">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-surface opacity-50 text-sm">
+            &copy; 2026 Jauhariandev. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

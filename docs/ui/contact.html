@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jauhariandev - Kontak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2F2342',
+                        secondary: '#0C3C78',
+                        tertiary: '#B42B3F',
+                        neutral: '#F7F7F8',
+                        surface: '#FFFFFF',
+                        border: '#E5E4E7'
+                    },
+                    fontFamily: {
+                        heading: ['Roboto', 'sans-serif'],
+                        body: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #F7F7F8; color: #2F2342; overflow-x: hidden; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col bg-surface">
+
+    <!-- 1. NAVBAR (Gelap) -->
+    <header class="w-full z-50 py-6 border-b border-border bg-surface">
+        <div class="max-w-[1400px] mx-auto px-6 flex items-center justify-between">
+            <div class="w-1/4">
+                <a href="#" class="font-heading font-bold text-2xl tracking-tight text-primary">Jauhariandev<span class="text-tertiary">.</span></a>
+            </div>
+            <nav class="hidden lg:flex w-2/4 justify-center space-x-10">
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Beranda</a>
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Tentang Saya</a>
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Portofolio</a>
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Layanan</a>
+                <a href="#" class="text-primary opacity-70 font-semibold text-sm hover:text-tertiary transition-colors">Blog</a>
+                <a href="#" class="text-tertiary font-semibold text-sm transition-colors">Kontak</a>
+            </nav>
+            <div class="hidden lg:flex w-1/4 justify-end items-center space-x-6 text-primary">
+                <a href="#" class="hover:text-tertiary transition-colors" aria-label="Instagram">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4z"/></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-full">
+        <!-- 2. PAGE TITLE / HERO MINIMALIS -->
+        <section class="py-24 px-6 max-w-[1400px] mx-auto text-center border-b border-border">
+            <span class="text-tertiary uppercase tracking-widest text-sm font-semibold mb-2 block">Pengarahan Proyek</span>
+            <h1 class="font-heading text-5xl md:text-7xl text-primary font-bold mb-6 tracking-tight">Kontak Kami.</h1>
+            <div class="text-sm font-semibold uppercase tracking-widest text-primary opacity-70 mt-6 flex justify-center items-center space-x-2">
+                <a href="#" class="hover:text-tertiary transition-colors">Beranda</a> 
+                <span>•</span> 
+                <span>Kontak</span>
+            </div>
+        </section>
+
+        <!-- 3. CONTACT DETAILS GRID -->
+        <section class="py-24 px-6 max-w-[1400px] mx-auto border-b border-border">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
+                
+                <!-- Item 1: Location -->
+                <div>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-6">Alamat Studio</h3>
+                    <p class="text-primary opacity-80 leading-relaxed text-lg">
+                        Jl. Digital Raya No. 10,<br>
+                        Jakarta Pusat, 10110,<br>
+                        Indonesia Raya
+                    </p>
+                </div>
+
+                <!-- Item 2: Phone -->
+                <div>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-6">Mari Berbicara</h3>
+                    <p class="text-primary opacity-80 leading-relaxed text-lg">
+                        <span class="font-bold opacity-100 uppercase tracking-widest text-sm">Telepon:</span> +62 812 3456 7890<br>
+                        <span class="font-bold opacity-100 uppercase tracking-widest text-sm">Faks:</span> +62 812 3456 7891
+                    </p>
+                </div>
+
+                <!-- Item 3: Email -->
+                <div>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-6">Kirim Surel</h3>
+                    <p class="text-primary opacity-80 leading-relaxed text-lg">
+                        <span class="font-bold opacity-100 uppercase tracking-widest text-sm">Dukungan:</span> hello@jauhariandev.com<br>
+                        <span class="font-bold opacity-100 uppercase tracking-widest text-sm">Bisnis:</span> admin@jauhariandev.com
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 4. FULL-WIDTH IMAGE / MAP PLACEHOLDER -->
+        <section class="relative w-full h-[60vh] bg-neutral">
+            <div class="absolute inset-0 z-10 bg-black/40 pointer-events-none flex flex-col justify-center items-center text-center">
+                <span class="text-white text-xs px-2 py-1 border border-white/50 mb-2 rounded">[PLACEHOLDER UNSPLASH: PETA/LOKASI]</span>
+                <span class="text-white opacity-70 text-sm">Simulasi Google Maps / Peta Visual</span>
+            </div>
+            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1920&q=80" alt="Peta Lokasi" class="w-full h-full object-cover grayscale">
+        </section>
+
+        <!-- 5. CONTACT FORM -->
+        <section class="py-24 px-6 bg-surface border-b border-border">
+            <div class="max-w-4xl mx-auto text-center">
+                <span class="text-tertiary uppercase tracking-widest text-sm font-semibold mb-4 block">Mari diskusikan proyek Anda sekarang</span>
+                <h2 class="text-4xl md:text-5xl font-heading font-bold text-primary leading-tight mb-16">Berikan Kami Pesan.</h2>
+                
+                <form class="text-left space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-primary text-sm font-bold uppercase tracking-widest mb-2" for="name">Nama</label>
+                            <input class="w-full border-b border-border bg-transparent py-4 focus:outline-none focus:border-primary text-primary transition-colors" id="name" type="text" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div>
+                            <label class="block text-primary text-sm font-bold uppercase tracking-widest mb-2" for="email">Surel</label>
+                            <input class="w-full border-b border-border bg-transparent py-4 focus:outline-none focus:border-primary text-primary transition-colors" id="email" type="email" placeholder="Masukkan surel Anda">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-primary text-sm font-bold uppercase tracking-widest mb-2" for="mobile">Nomor Telepon</label>
+                        <input class="w-full border-b border-border bg-transparent py-4 focus:outline-none focus:border-primary text-primary transition-colors" id="mobile" type="text" placeholder="Masukkan nomor telepon Anda">
+                    </div>
+                    <div>
+                        <label class="block text-primary text-sm font-bold uppercase tracking-widest mb-2" for="message">Pesan</label>
+                        <textarea class="w-full border-b border-border bg-transparent py-4 focus:outline-none focus:border-primary text-primary transition-colors h-32 resize-none" id="message" placeholder="Jelaskan secara singkat mengenai proyek Anda..."></textarea>
+                    </div>
+                    <div class="pt-6 text-center">
+                        <button type="submit" class="bg-primary text-surface font-bold uppercase tracking-widest py-4 px-12 rounded-sm hover:bg-tertiary hover:text-surface transition-colors shadow-lg">Kirim Pesan</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- 6. SOCIAL MEDIA LINKS -->
+        <section class="py-16 bg-neutral px-6 text-center">
+            <span class="text-tertiary uppercase tracking-widest text-sm font-semibold mb-8 block">Terhubung di Media Sosial</span>
+            <div class="flex justify-center items-center gap-6 flex-wrap">
+                <a href="#" class="font-heading font-bold text-xl text-primary hover:text-tertiary transition-colors uppercase tracking-widest">Facebook</a>
+                <span class="text-border text-xl hidden sm:inline-block">•</span>
+                <a href="#" class="font-heading font-bold text-xl text-primary hover:text-tertiary transition-colors uppercase tracking-widest">Instagram</a>
+                <span class="text-border text-xl hidden sm:inline-block">•</span>
+                <a href="#" class="font-heading font-bold text-xl text-primary hover:text-tertiary transition-colors uppercase tracking-widest">Twitter</a>
+                <span class="text-border text-xl hidden sm:inline-block">•</span>
+                <a href="#" class="font-heading font-bold text-xl text-primary hover:text-tertiary transition-colors uppercase tracking-widest">Linkedin</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 7. FOOTER -->
+    <footer class="bg-primary pt-24 pb-12 px-6">
+        <div class="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 border-b border-white/10 pb-16">
+            <div>
+                <h3 class="font-heading font-bold text-2xl tracking-tight text-surface mb-6">Jauhariandev<span class="text-tertiary">.</span></h3>
+                <p class="text-surface opacity-70 leading-relaxed max-w-sm">
+                    Layanan kreatif spesialis di bidang web development dan desain UX.
+                </p>
+            </div>
+            <div>
+                <h4 class="font-heading text-lg font-bold text-surface mb-6">Kontak</h4>
+                <ul class="text-surface opacity-70 space-y-3">
+                    <li>Jl. Digital Raya No.10, Jakarta</li>
+                    <li>hello@jauhariandev.com</li>
+                    <li>+62 812 3456 7890</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-heading text-lg font-bold text-surface mb-6">Tautan</h4>
+                <ul class="text-surface opacity-70 space-y-3">
+                    <li><a href="#" class="hover:text-tertiary transition-colors">Beranda</a></li>
+                    <li><a href="#" class="hover:text-tertiary transition-colors">Portofolio</a></li>
+                    <li><a href="#" class="hover:text-tertiary transition-colors">Layanan</a></li>
+                    <li><a href="#" class="hover:text-tertiary transition-colors">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center text-surface opacity-50 text-sm">
+            &copy; 2026 Jauhariandev. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

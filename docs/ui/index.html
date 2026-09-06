@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jauhariandev - UI Prototypes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2F2342',
+                        secondary: '#0C3C78',
+                        tertiary: '#B42B3F',
+                        neutral: '#F7F7F8',
+                        surface: '#FFFFFF',
+                        border: '#E5E4E7'
+                    },
+                    fontFamily: {
+                        heading: ['Roboto', 'sans-serif'],
+                        body: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #F7F7F8; color: #2F2342; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col bg-neutral text-primary">
+
+    <div class="max-w-[1200px] mx-auto w-full px-6 py-24 flex-grow flex flex-col justify-center">
+        
+        <header class="text-center mb-16 border-b border-border pb-12">
+            <span class="text-tertiary uppercase tracking-widest text-sm font-semibold mb-4 block">Direktori Prototipe</span>
+            <h1 class="font-heading text-5xl md:text-6xl font-bold text-primary mb-6 tracking-tight">Jauhariandev<span class="text-tertiary">.</span></h1>
+            <p class="text-primary opacity-70 max-w-2xl mx-auto text-lg leading-relaxed">
+                Berikut adalah kumpulan kerangka antarmuka pengguna (UI Prototypes) bagian publik yang telah dirancang menggunakan Tailwind CSS dan mengadopsi susunan dari tema Hando.
+            </p>
+        </header>
+
+        <main>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Home -->
+                <a href="home.html" class="group block bg-surface border border-border p-8 rounded-sm hover:border-primary transition-colors duration-300">
+                    <span class="text-tertiary text-xs font-bold uppercase tracking-widest mb-2 block">01</span>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-3 flex justify-between items-center">
+                        Beranda
+                        <span class="text-tertiary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">&rarr;</span>
+                    </h3>
+                    <p class="text-primary opacity-60 text-sm">Halaman utama (home.html) dengan 14 seksi konten dinamis.</p>
+                </a>
+
+                <!-- About -->
+                <a href="about.html" class="group block bg-surface border border-border p-8 rounded-sm hover:border-primary transition-colors duration-300">
+                    <span class="text-tertiary text-xs font-bold uppercase tracking-widest mb-2 block">02</span>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-3 flex justify-between items-center">
+                        Tentang Saya
+                        <span class="text-tertiary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">&rarr;</span>
+                    </h3>
+                    <p class="text-primary opacity-60 text-sm">Halaman profil (about.html) dengan animasi marquee dan progres keahlian.</p>
+                </a>
+
+                <!-- Services -->
+                <a href="services.html" class="group block bg-surface border border-border p-8 rounded-sm hover:border-primary transition-colors duration-300">
+                    <span class="text-tertiary text-xs font-bold uppercase tracking-widest mb-2 block">03</span>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-3 flex justify-between items-center">
+                        Layanan
+                        <span class="text-tertiary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">&rarr;</span>
+                    </h3>
+                    <p class="text-primary opacity-60 text-sm">Halaman layanan (services.html) dilengkapi tabel harga (pricing) untuk di-*checkout*.</p>
+                </a>
+
+                <!-- Portfolio -->
+                <a href="portfolio.html" class="group block bg-surface border border-border p-8 rounded-sm hover:border-primary transition-colors duration-300">
+                    <span class="text-tertiary text-xs font-bold uppercase tracking-widest mb-2 block">04</span>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-3 flex justify-between items-center">
+                        Portofolio
+                        <span class="text-tertiary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">&rarr;</span>
+                    </h3>
+                    <p class="text-primary opacity-60 text-sm">Katalog proyek (portfolio.html) dengan filter kategori dan efek *hover* minimalis.</p>
+                </a>
+
+                <!-- Blog -->
+                <a href="blog.html" class="group block bg-surface border border-border p-8 rounded-sm hover:border-primary transition-colors duration-300">
+                    <span class="text-tertiary text-xs font-bold uppercase tracking-widest mb-2 block">05</span>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-3 flex justify-between items-center">
+                        Blog
+                        <span class="text-tertiary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">&rarr;</span>
+                    </h3>
+                    <p class="text-primary opacity-60 text-sm">Daftar artikel (blog.html) dengan tata letak *grid* 3-kolom dan kartu bergaris aksen.</p>
+                </a>
+
+                <!-- Single Post -->
+                <a href="single-post.html" class="group block bg-surface border border-border p-8 rounded-sm hover:border-primary transition-colors duration-300">
+                    <span class="text-tertiary text-xs font-bold uppercase tracking-widest mb-2 block">06</span>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-3 flex justify-between items-center">
+                        Single Post
+                        <span class="text-tertiary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">&rarr;</span>
+                    </h3>
+                    <p class="text-primary opacity-60 text-sm">Format artikel (single-post.html) bergaya majalah dengan tipografi besar dan *sidebar*.</p>
+                </a>
+
+                <!-- Contact -->
+                <a href="contact.html" class="group block bg-surface border border-border p-8 rounded-sm hover:border-primary transition-colors duration-300">
+                    <span class="text-tertiary text-xs font-bold uppercase tracking-widest mb-2 block">07</span>
+                    <h3 class="font-heading text-2xl font-bold text-primary mb-3 flex justify-between items-center">
+                        Kontak
+                        <span class="text-tertiary opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-[-10px] group-hover:translate-x-0">&rarr;</span>
+                    </h3>
+                    <p class="text-primary opacity-60 text-sm">Halaman hubungi kami (contact.html) dengan peta lebar dan form minimalis elegan.</p>
+                </a>
+            </div>
+        </main>
+        
+    </div>
+
+    <footer class="py-8 border-t border-border text-center text-primary opacity-50 text-sm w-full">
+        &copy; 2026 Jauhariandev - Dibuat sesuai Antislop & DESIGN.md
+    </footer>
+
+</body>
+</html>
