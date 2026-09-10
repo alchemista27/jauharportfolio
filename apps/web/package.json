@@ -13,6 +13,9 @@
     "@hono/zod-validator": "^0.2.1",
     "@repo/db": "workspace:*",
     "@repo/types": "workspace:*",
+    "@tiptap/core": "^3.31.3",
+    "@tiptap/pm": "^3.31.3",
+    "@tiptap/starter-kit": "^3.31.3",
     "hono": "^4.3.0",
     "lucide-svelte": "^0.378.0"
   },

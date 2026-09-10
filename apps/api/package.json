@@ -7,15 +7,17 @@
     "deploy": "wrangler deploy --minify src/index.ts"
   },
   "dependencies": {
+    "@hono/zod-validator": "^0.2.1",
     "@repo/db": "workspace:*",
     "@repo/types": "workspace:*",
     "better-auth": "^1.1.20",
-    "cloudinary": "^2.11.0",
-    "hono": "^4.3.0"
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.3.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "tsx": "^4.23.13",
     "typescript": "^5.4.5",
-    "wrangler": "^3.57.1"
+    "wrangler": "^4.129.0"
   }
 }
